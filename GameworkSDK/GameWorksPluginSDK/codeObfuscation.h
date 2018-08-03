@@ -1,0 +1,10 @@
+#ifndef Demo_codeObfuscation_h  
+#define Demo_codeObfuscation_h
+//confuse string at Wed Apr 20 16:36:24 CST 2016
+#define showGWSDKUserCenterViewController LanoDHEZrfIlQtoz
+#define showGWSDKPaymentViewController qdaPJWGBWbWTlJdI
+#define exchangeUserAccountAction gbAYvFSKXnODWAJn
+#define showGWSDKPaymentHistoryViewController YSuSyTGLIiLACyWV
+#define showGWSDKUserLoginCenterViewController GzfVVOXNAQaUzKqF
+#define showGWSDKtempUserLoginCenterViewController iijvhDjHCfPchTPC
+#endif

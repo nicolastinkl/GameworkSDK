@@ -1,0 +1,1414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		938BC8AA1A5A788C0068600D /* GameWorksPluginSDKAggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 938BC8AB1A5A788C0068600D /* Build configuration list for PBXAggregateTarget "GameWorksPluginSDKAggregate" */;
+			buildPhases = (
+				938BC8AE1A5A78900068600D /* ShellScript */,
+				9344458A1A5FD578005FD721 /* ShellScript */,
+				936CE7791A67BE4A0019C7EB /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = GameWorksPluginSDKAggregate;
+			productName = GameworkSDKAggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		93171D391A75ECD600785835 /* GWSDKAboutUSViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93171D361A75ECD600785835 /* GWSDKAboutUSViewController.h */; };
+		93171D3A1A75ECD600785835 /* GWSDKAboutUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93171D371A75ECD600785835 /* GWSDKAboutUSViewController.m */; };
+		93171D3B1A75ECD600785835 /* GWSDKAboutUSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93171D381A75ECD600785835 /* GWSDKAboutUSViewController.xib */; };
+		93171D3F1A75ECEA00785835 /* GWSDKHelpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93171D3C1A75ECEA00785835 /* GWSDKHelpViewController.h */; };
+		93171D401A75ECEA00785835 /* GWSDKHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93171D3D1A75ECEA00785835 /* GWSDKHelpViewController.m */; };
+		93171D411A75ECEA00785835 /* GWSDKHelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93171D3E1A75ECEA00785835 /* GWSDKHelpViewController.xib */; };
+		93171D481A75ED1900785835 /* GDSDKPayHistoryTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 93171D421A75ED1900785835 /* GDSDKPayHistoryTableViewCell.h */; };
+		93171D491A75ED1900785835 /* GDSDKPayHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93171D431A75ED1900785835 /* GDSDKPayHistoryTableViewCell.m */; };
+		93171D4B1A75ED1900785835 /* GWSDKPayHistoryViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93171D451A75ED1900785835 /* GWSDKPayHistoryViewController.h */; };
+		93171D4C1A75ED1900785835 /* GWSDKPayHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93171D461A75ED1900785835 /* GWSDKPayHistoryViewController.m */; };
+		93171D4D1A75ED1900785835 /* GWSDKPayHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93171D471A75ED1900785835 /* GWSDKPayHistoryViewController.xib */; };
+		93171D511A75ED2A00785835 /* GWSDKChangePwdViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93171D4E1A75ED2A00785835 /* GWSDKChangePwdViewController.h */; };
+		93171D521A75ED2A00785835 /* GWSDKChangePwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93171D4F1A75ED2A00785835 /* GWSDKChangePwdViewController.m */; };
+		93171D531A75ED2A00785835 /* GWSDKChangePwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93171D501A75ED2A00785835 /* GWSDKChangePwdViewController.xib */; };
+		93171D571A75EE6F00785835 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93171D561A75EE6F00785835 /* Info.plist */; };
+		932340621A6664B7000DBF3F /* GWSDKUserCenterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9323405F1A6664B7000DBF3F /* GWSDKUserCenterViewController.h */; };
+		932340631A6664B7000DBF3F /* GWSDKUserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932340601A6664B7000DBF3F /* GWSDKUserCenterViewController.m */; };
+		932340641A6664B7000DBF3F /* GWSDKUserCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932340611A6664B7000DBF3F /* GWSDKUserCenterViewController.xib */; };
+		932D446C1A76309C0048D92D /* GWSDKPayPluginOrder.h in Headers */ = {isa = PBXBuildFile; fileRef = 932D446A1A76309C0048D92D /* GWSDKPayPluginOrder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		932D446D1A76309C0048D92D /* GWSDKPayPluginOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 932D446B1A76309C0048D92D /* GWSDKPayPluginOrder.m */; };
+		932F48621A627ADD004AA47D /* GWSDKRegisterViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 932F485F1A627ADD004AA47D /* GWSDKRegisterViewController.h */; };
+		932F48631A627ADD004AA47D /* GWSDKRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 932F48601A627ADD004AA47D /* GWSDKRegisterViewController.m */; };
+		932F48641A627ADD004AA47D /* GWSDKRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 932F48611A627ADD004AA47D /* GWSDKRegisterViewController.xib */; };
+		932FE4211A5D03AC0032C92D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 932FE4201A5D03AC0032C92D /* CoreGraphics.framework */; };
+		933221A61A5A956B00C6FD3F /* GWApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 933221A51A5A956B00C6FD3F /* GWApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9339FF241A5FBAB700DE37AA /* GameWorksSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9339FF231A5FBAB700DE37AA /* GameWorksSDKBundle.bundle */; };
+		934C90FD1A78E4A600A09B61 /* TMCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 934C90F71A78E4A600A09B61 /* TMCache.h */; };
+		934C90FE1A78E4A600A09B61 /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 934C90F81A78E4A600A09B61 /* TMCache.m */; };
+		934C90FF1A78E4A600A09B61 /* TMDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 934C90F91A78E4A600A09B61 /* TMDiskCache.h */; };
+		934C91001A78E4A600A09B61 /* TMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 934C90FA1A78E4A600A09B61 /* TMDiskCache.m */; };
+		934C91011A78E4A600A09B61 /* TMMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 934C90FB1A78E4A600A09B61 /* TMMemoryCache.h */; };
+		934C91021A78E4A600A09B61 /* TMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 934C90FC1A78E4A600A09B61 /* TMMemoryCache.m */; };
+		9355C47F1A6630DB00FC2027 /* GWSDKFindPwdViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9355C47C1A6630DB00FC2027 /* GWSDKFindPwdViewController.h */; };
+		9355C4801A6630DB00FC2027 /* GWSDKFindPwdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9355C47D1A6630DB00FC2027 /* GWSDKFindPwdViewController.m */; };
+		9355C4811A6630DB00FC2027 /* GWSDKFindPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9355C47E1A6630DB00FC2027 /* GWSDKFindPwdViewController.xib */; };
+		9355C4851A663CF000FC2027 /* GWSDKQuarkViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9355C4821A663CF000FC2027 /* GWSDKQuarkViewController.h */; };
+		9355C4861A663CF000FC2027 /* GWSDKQuarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9355C4831A663CF000FC2027 /* GWSDKQuarkViewController.m */; };
+		9355C4871A663CF000FC2027 /* GWSDKQuarkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9355C4841A663CF000FC2027 /* GWSDKQuarkViewController.xib */; };
+		9355C48F1A663EDC00FC2027 /* TableViewWithBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9355C4891A663EDC00FC2027 /* TableViewWithBlock.h */; };
+		9355C4901A663EDC00FC2027 /* TableViewWithBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 9355C48A1A663EDC00FC2027 /* TableViewWithBlock.m */; };
+		9355C4911A663EDC00FC2027 /* UITableView+DataSourceBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 9355C48B1A663EDC00FC2027 /* UITableView+DataSourceBlocks.h */; };
+		9355C4921A663EDC00FC2027 /* UITableView+DataSourceBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9355C48C1A663EDC00FC2027 /* UITableView+DataSourceBlocks.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9355C4931A663EDC00FC2027 /* UITableView+DelegateBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 9355C48D1A663EDC00FC2027 /* UITableView+DelegateBlocks.h */; };
+		9355C4941A663EDC00FC2027 /* UITableView+DelegateBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9355C48E1A663EDC00FC2027 /* UITableView+DelegateBlocks.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9355C4981A6643B900FC2027 /* GWSDKQuarkTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9355C4951A6643B900FC2027 /* GWSDKQuarkTableViewCell.h */; };
+		9355C4991A6643B900FC2027 /* GWSDKQuarkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9355C4961A6643B900FC2027 /* GWSDKQuarkTableViewCell.m */; };
+		9355C49A1A6643B900FC2027 /* GWSDKQuarkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9355C4971A6643B900FC2027 /* GWSDKQuarkTableViewCell.xib */; };
+		93573E7C1A5FB0C500D44526 /* GWSDKBannerMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93573E7A1A5FB0C500D44526 /* GWSDKBannerMenuView.h */; };
+		93573E7D1A5FB0C500D44526 /* GWSDKBannerMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93573E7B1A5FB0C500D44526 /* GWSDKBannerMenuView.m */; };
+		936A89401A62778E008F2228 /* UIButton+Bootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 936A893E1A62778E008F2228 /* UIButton+Bootstrap.h */; };
+		936A89411A62778E008F2228 /* UIButton+Bootstrap.m in Sources */ = {isa = PBXBuildFile; fileRef = 936A893F1A62778E008F2228 /* UIButton+Bootstrap.m */; };
+		936CE7721A67BD490019C7EB /* PrefixHeader.pch in Headers */ = {isa = PBXBuildFile; fileRef = 936CE7711A67BD490019C7EB /* PrefixHeader.pch */; };
+		936CE7741A67BDBD0019C7EB /* codeObfuscation.h in Headers */ = {isa = PBXBuildFile; fileRef = 936CE7731A67BDBD0019C7EB /* codeObfuscation.h */; };
+		936CE7771A67BDD20019C7EB /* confuse.sh in Resources */ = {isa = PBXBuildFile; fileRef = 936CE7751A67BDD20019C7EB /* confuse.sh */; };
+		936CE7781A67BDD20019C7EB /* func.list in Resources */ = {isa = PBXBuildFile; fileRef = 936CE7761A67BDD20019C7EB /* func.list */; };
+		93740F5E1A5D6070008AD24F /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 93740F461A5D6070008AD24F /* JSONModel.h */; };
+		93740F5F1A5D6070008AD24F /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93740F471A5D6070008AD24F /* JSONModel.m */; };
+		93740F601A5D6070008AD24F /* JSONModelArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 93740F481A5D6070008AD24F /* JSONModelArray.h */; };
+		93740F611A5D6070008AD24F /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 93740F491A5D6070008AD24F /* JSONModelArray.m */; };
+		93740F621A5D6070008AD24F /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 93740F4A1A5D6070008AD24F /* JSONModelClassProperty.h */; };
+		93740F631A5D6070008AD24F /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 93740F4B1A5D6070008AD24F /* JSONModelClassProperty.m */; };
+		93740F641A5D6070008AD24F /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 93740F4C1A5D6070008AD24F /* JSONModelError.h */; };
+		93740F651A5D6070008AD24F /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 93740F4D1A5D6070008AD24F /* JSONModelError.m */; };
+		93740F661A5D6070008AD24F /* NSArray+JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 93740F4F1A5D6070008AD24F /* NSArray+JSONModel.h */; };
+		93740F671A5D6070008AD24F /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93740F501A5D6070008AD24F /* NSArray+JSONModel.m */; };
+		93740F681A5D6070008AD24F /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 93740F511A5D6070008AD24F /* JSONModelLib.h */; };
+		93740F691A5D6070008AD24F /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 93740F531A5D6070008AD24F /* JSONAPI.h */; };
+		93740F6A1A5D6070008AD24F /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 93740F541A5D6070008AD24F /* JSONAPI.m */; };
+		93740F6B1A5D6070008AD24F /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 93740F551A5D6070008AD24F /* JSONHTTPClient.h */; };
+		93740F6C1A5D6070008AD24F /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 93740F561A5D6070008AD24F /* JSONHTTPClient.m */; };
+		93740F6D1A5D6070008AD24F /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 93740F571A5D6070008AD24F /* JSONModel+networking.h */; };
+		93740F6E1A5D6070008AD24F /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 93740F581A5D6070008AD24F /* JSONModel+networking.m */; };
+		93740F6F1A5D6070008AD24F /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 93740F5A1A5D6070008AD24F /* JSONKeyMapper.h */; };
+		93740F701A5D6070008AD24F /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 93740F5B1A5D6070008AD24F /* JSONKeyMapper.m */; };
+		93740F711A5D6070008AD24F /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 93740F5C1A5D6070008AD24F /* JSONValueTransformer.h */; };
+		93740F721A5D6070008AD24F /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93740F5D1A5D6070008AD24F /* JSONValueTransformer.m */; };
+		93740F751A5D65F5008AD24F /* GWNetEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 93740F731A5D65F5008AD24F /* GWNetEngine.h */; };
+		93740F761A5D65F5008AD24F /* GWNetEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 93740F741A5D65F5008AD24F /* GWNetEngine.m */; };
+		93740F791A5E1DC2008AD24F /* GWUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 93740F771A5E1DC2008AD24F /* GWUtility.h */; };
+		93740F7A1A5E1DC2008AD24F /* GWUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 93740F781A5E1DC2008AD24F /* GWUtility.m */; };
+		93740F7D1A5E2A64008AD24F /* GPReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 93740F7B1A5E2A64008AD24F /* GPReachability.h */; };
+		93740F7E1A5E2A64008AD24F /* GPReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 93740F7C1A5E2A64008AD24F /* GPReachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		93740F831A5E55A0008AD24F /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 93740F801A5E55A0008AD24F /* JSONKit.h */; };
+		93740F841A5E55A0008AD24F /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 93740F811A5E55A0008AD24F /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		937ADC941A5D03EA0018FADF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937ADC931A5D03EA0018FADF /* Security.framework */; };
+		937ADC961A5D03F40018FADF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937ADC951A5D03F40018FADF /* SystemConfiguration.framework */; };
+		937ADC981A5D03FA0018FADF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937ADC971A5D03FA0018FADF /* QuartzCore.framework */; };
+		937ADC9A1A5D04020018FADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937ADC991A5D04020018FADF /* Foundation.framework */; };
+		937ADC9C1A5D04090018FADF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937ADC9B1A5D04090018FADF /* CoreFoundation.framework */; };
+		937ADCA51A5D0B700018FADF /* GWGameWorks.h in Headers */ = {isa = PBXBuildFile; fileRef = 937ADCA31A5D0B700018FADF /* GWGameWorks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		937ADCA61A5D0B700018FADF /* GWGameWorks.m in Sources */ = {isa = PBXBuildFile; fileRef = 937ADCA41A5D0B700018FADF /* GWGameWorks.m */; };
+		937ADCA91A5D16B90018FADF /* GWObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 937ADCA71A5D16B90018FADF /* GWObject.h */; };
+		937ADCAA1A5D16B90018FADF /* GWObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 937ADCA81A5D16B90018FADF /* GWObject.m */; };
+		937ADCAD1A5D178A0018FADF /* GWMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 937ADCAB1A5D178A0018FADF /* GWMacro.h */; };
+		937ADCB21A5D2A360018FADF /* GWUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 937ADCB01A5D2A360018FADF /* GWUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		937ADCB31A5D2A360018FADF /* GWUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 937ADCB11A5D2A360018FADF /* GWUser.m */; };
+		937ADCC11A5D38E80018FADF /* GWUICKeyChainStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 937ADCBF1A5D38E80018FADF /* GWUICKeyChainStore.h */; };
+		937ADCC21A5D38E80018FADF /* GWUICKeyChainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 937ADCC01A5D38E80018FADF /* GWUICKeyChainStore.m */; };
+		937ADCC51A5D3B620018FADF /* GWOpenUDID.h in Headers */ = {isa = PBXBuildFile; fileRef = 937ADCC31A5D3B620018FADF /* GWOpenUDID.h */; };
+		937ADCC61A5D3B620018FADF /* GWOpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 937ADCC41A5D3B620018FADF /* GWOpenUDID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		937ADCCA1A5D3DE80018FADF /* GWMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 937ADCC71A5D3DE80018FADF /* GWMBase64.h */; };
+		937ADCCB1A5D3DE80018FADF /* GWMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 937ADCC81A5D3DE80018FADF /* GWMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		937ADCCC1A5D3DE80018FADF /* GWMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 937ADCC91A5D3DE80018FADF /* GWMDefines.h */; };
+		937ADCCF1A5D3E780018FADF /* GWAES.h in Headers */ = {isa = PBXBuildFile; fileRef = 937ADCCD1A5D3E780018FADF /* GWAES.h */; };
+		937ADCD01A5D3E780018FADF /* GWAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 937ADCCE1A5D3E780018FADF /* GWAES.m */; };
+		937FE8B51A666D6400B194C3 /* GWSDKBingAccountViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 937FE8B21A666D6400B194C3 /* GWSDKBingAccountViewController.h */; };
+		937FE8B61A666D6400B194C3 /* GWSDKBingAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937FE8B31A666D6400B194C3 /* GWSDKBingAccountViewController.m */; };
+		937FE8B71A666D6400B194C3 /* GWSDKBingAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937FE8B41A666D6400B194C3 /* GWSDKBingAccountViewController.xib */; };
+		937FE8BC1A6678C800B194C3 /* GWSDKPaymentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 937FE8B91A6678C800B194C3 /* GWSDKPaymentViewController.h */; };
+		937FE8BD1A6678C800B194C3 /* GWSDKPaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 937FE8BA1A6678C800B194C3 /* GWSDKPaymentViewController.m */; };
+		937FE8BE1A6678C800B194C3 /* GWSDKPaymentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 937FE8BB1A6678C800B194C3 /* GWSDKPaymentViewController.xib */; };
+		9391E5451A66049100BA6AF4 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9391E53F1A66049100BA6AF4 /* SVIndefiniteAnimatedView.h */; };
+		9391E5461A66049100BA6AF4 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9391E5401A66049100BA6AF4 /* SVIndefiniteAnimatedView.m */; };
+		9391E5481A66049100BA6AF4 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9391E5421A66049100BA6AF4 /* SVProgressHUD.bundle */; };
+		9391E5491A66049100BA6AF4 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9391E5431A66049100BA6AF4 /* SVProgressHUD.h */; };
+		9391E54A1A66049100BA6AF4 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9391E5441A66049100BA6AF4 /* SVProgressHUD.m */; };
+		93A2E6931A5A753A00553F17 /* GameWorksPluginSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A2E6871A5A753A00553F17 /* GameWorksPluginSDK.framework */; };
+		93A2E69A1A5A753A00553F17 /* GameworkSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93A2E6991A5A753A00553F17 /* GameworkSDKTests.m */; };
+		93AE34571A5FC61E00FC1D35 /* GWSDKNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AE34511A5FC61E00FC1D35 /* GWSDKNavigationBar.h */; };
+		93AE34581A5FC61E00FC1D35 /* GWSDKNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AE34521A5FC61E00FC1D35 /* GWSDKNavigationBar.m */; };
+		93AE34591A5FC61E00FC1D35 /* GWSDKNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AE34531A5FC61E00FC1D35 /* GWSDKNavigationController.h */; };
+		93AE345A1A5FC61E00FC1D35 /* GWSDKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AE34541A5FC61E00FC1D35 /* GWSDKNavigationController.m */; };
+		93AE345B1A5FC61E00FC1D35 /* GWSDKViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AE34551A5FC61E00FC1D35 /* GWSDKViewController.h */; };
+		93AE345C1A5FC61E00FC1D35 /* GWSDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AE34561A5FC61E00FC1D35 /* GWSDKViewController.m */; };
+		93AE34671A5FCCC600FC1D35 /* GWSDKLoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93AE34641A5FCCC600FC1D35 /* GWSDKLoginViewController.h */; };
+		93AE34681A5FCCC600FC1D35 /* GWSDKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93AE34651A5FCCC600FC1D35 /* GWSDKLoginViewController.m */; };
+		93AE34691A5FCCC600FC1D35 /* GWSDKLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93AE34661A5FCCC600FC1D35 /* GWSDKLoginViewController.xib */; };
+		93C39C3A1A5D3F50009759EA /* libUPPayPlugin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C39C371A5D3F50009759EA /* libUPPayPlugin.a */; };
+		93C39C3B1A5D3F51009759EA /* UPPayPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C39C381A5D3F50009759EA /* UPPayPlugin.h */; };
+		93C39C3C1A5D3F51009759EA /* UPPayPluginDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C39C391A5D3F50009759EA /* UPPayPluginDelegate.h */; };
+		93C39C3F1A5D3FFF009759EA /* GWGetIPService.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C39C3D1A5D3FFF009759EA /* GWGetIPService.h */; };
+		93C39C401A5D3FFF009759EA /* GWGetIPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C39C3E1A5D3FFF009759EA /* GWGetIPService.m */; };
+		93C39C971A5D515E009759EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C39C961A5D515E009759EA /* UIKit.framework */; };
+		93CF51A11A68AC0800F8464B /* GWSDKPayDesStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = 93CF519F1A68AC0800F8464B /* GWSDKPayDesStruct.h */; };
+		93CF51A21A68AC0800F8464B /* GWSDKPayDesStruct.m in Sources */ = {isa = PBXBuildFile; fileRef = 93CF51A01A68AC0800F8464B /* GWSDKPayDesStruct.m */; };
+		93D8AB8C1A68B7D800CEF07B /* GWSDKRIButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D8AB881A68B7D800CEF07B /* GWSDKRIButtonItem.h */; };
+		93D8AB8D1A68B7D800CEF07B /* GWSDKRIButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D8AB891A68B7D800CEF07B /* GWSDKRIButtonItem.m */; };
+		93D8AB8E1A68B7D800CEF07B /* UIAlertView+GWSDKBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D8AB8A1A68B7D800CEF07B /* UIAlertView+GWSDKBlocks.h */; };
+		93D8AB8F1A68B7D800CEF07B /* UIAlertView+GWSDKBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D8AB8B1A68B7D800CEF07B /* UIAlertView+GWSDKBlocks.m */; };
+		93DA5CD91A6A41A9008F9987 /* UIColor+iOS7Colors.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DA5CD71A6A41A9008F9987 /* UIColor+iOS7Colors.h */; };
+		93DA5CDA1A6A41A9008F9987 /* UIColor+iOS7Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DA5CD81A6A41A9008F9987 /* UIColor+iOS7Colors.m */; };
+		93E5351C1A66A789004E6A79 /* GWSDKPayMentModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E5351A1A66A789004E6A79 /* GWSDKPayMentModel.h */; };
+		93E5351D1A66A789004E6A79 /* GWSDKPayMentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5351B1A66A789004E6A79 /* GWSDKPayMentModel.m */; };
+		93E535211A6756B5004E6A79 /* GWSDKPaymentTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E5351E1A6756B5004E6A79 /* GWSDKPaymentTableViewCell.h */; };
+		93E535221A6756B5004E6A79 /* GWSDKPaymentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5351F1A6756B5004E6A79 /* GWSDKPaymentTableViewCell.m */; };
+		93E535231A6756B5004E6A79 /* GWSDKPaymentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93E535201A6756B5004E6A79 /* GWSDKPaymentTableViewCell.xib */; };
+		93E535261A675E50004E6A79 /* UIImageView+M13AsynchronousImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E535241A675E50004E6A79 /* UIImageView+M13AsynchronousImageView.h */; };
+		93E535271A675E50004E6A79 /* UIImageView+M13AsynchronousImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E535251A675E50004E6A79 /* UIImageView+M13AsynchronousImageView.m */; };
+		93E5352A1A6760FA004E6A79 /* GWSDKPayMent.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E535281A6760FA004E6A79 /* GWSDKPayMent.h */; };
+		93E5352B1A6760FA004E6A79 /* GWSDKPayMent.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E535291A6760FA004E6A79 /* GWSDKPayMent.m */; };
+		93E5352E1A676565004E6A79 /* GWSDKOrderModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E5352C1A676565004E6A79 /* GWSDKOrderModel.h */; };
+		93E5352F1A676565004E6A79 /* GWSDKOrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E5352D1A676565004E6A79 /* GWSDKOrderModel.m */; };
+		93E535331A679CDD004E6A79 /* GWSDKWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93E535301A679CDD004E6A79 /* GWSDKWebViewController.h */; };
+		93E535341A679CDD004E6A79 /* GWSDKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E535311A679CDD004E6A79 /* GWSDKWebViewController.m */; };
+		93E535351A679CDD004E6A79 /* GWSDKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93E535321A679CDD004E6A79 /* GWSDKWebViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93A2E6941A5A753A00553F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93A2E67E1A5A753A00553F17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93A2E6861A5A753A00553F17;
+			remoteInfo = GameworkSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93171D361A75ECD600785835 /* GWSDKAboutUSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKAboutUSViewController.h; sourceTree = "<group>"; };
+		93171D371A75ECD600785835 /* GWSDKAboutUSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKAboutUSViewController.m; sourceTree = "<group>"; };
+		93171D381A75ECD600785835 /* GWSDKAboutUSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWSDKAboutUSViewController.xib; sourceTree = "<group>"; };
+		93171D3C1A75ECEA00785835 /* GWSDKHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKHelpViewController.h; sourceTree = "<group>"; };
+		93171D3D1A75ECEA00785835 /* GWSDKHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKHelpViewController.m; sourceTree = "<group>"; };
+		93171D3E1A75ECEA00785835 /* GWSDKHelpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWSDKHelpViewController.xib; sourceTree = "<group>"; };
+		93171D421A75ED1900785835 /* GDSDKPayHistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDSDKPayHistoryTableViewCell.h; sourceTree = "<group>"; };
+		93171D431A75ED1900785835 /* GDSDKPayHistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDSDKPayHistoryTableViewCell.m; sourceTree = "<group>"; };
+		93171D451A75ED1900785835 /* GWSDKPayHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKPayHistoryViewController.h; sourceTree = "<group>"; };
+		93171D461A75ED1900785835 /* GWSDKPayHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKPayHistoryViewController.m; sourceTree = "<group>"; };
+		93171D471A75ED1900785835 /* GWSDKPayHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWSDKPayHistoryViewController.xib; sourceTree = "<group>"; };
+		93171D4E1A75ED2A00785835 /* GWSDKChangePwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKChangePwdViewController.h; sourceTree = "<group>"; };
+		93171D4F1A75ED2A00785835 /* GWSDKChangePwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKChangePwdViewController.m; sourceTree = "<group>"; };
+		93171D501A75ED2A00785835 /* GWSDKChangePwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWSDKChangePwdViewController.xib; sourceTree = "<group>"; };
+		93171D561A75EE6F00785835 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9323405F1A6664B7000DBF3F /* GWSDKUserCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKUserCenterViewController.h; sourceTree = "<group>"; };
+		932340601A6664B7000DBF3F /* GWSDKUserCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKUserCenterViewController.m; sourceTree = "<group>"; };
+		932340611A6664B7000DBF3F /* GWSDKUserCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWSDKUserCenterViewController.xib; sourceTree = "<group>"; };
+		932D446A1A76309C0048D92D /* GWSDKPayPluginOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKPayPluginOrder.h; sourceTree = "<group>"; };
+		932D446B1A76309C0048D92D /* GWSDKPayPluginOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKPayPluginOrder.m; sourceTree = "<group>"; };
+		932F485F1A627ADD004AA47D /* GWSDKRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKRegisterViewController.h; sourceTree = "<group>"; };
+		932F48601A627ADD004AA47D /* GWSDKRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKRegisterViewController.m; sourceTree = "<group>"; };
+		932F48611A627ADD004AA47D /* GWSDKRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWSDKRegisterViewController.xib; sourceTree = "<group>"; };
+		932FE4201A5D03AC0032C92D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		933221A51A5A956B00C6FD3F /* GWApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWApp.h; sourceTree = "<group>"; };
+		9339FF231A5FBAB700DE37AA /* GameWorksSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GameWorksSDKBundle.bundle; sourceTree = "<group>"; };
+		934C90F71A78E4A600A09B61 /* TMCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCache.h; sourceTree = "<group>"; };
+		934C90F81A78E4A600A09B61 /* TMCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMCache.m; sourceTree = "<group>"; };
+		934C90F91A78E4A600A09B61 /* TMDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDiskCache.h; sourceTree = "<group>"; };
+		934C90FA1A78E4A600A09B61 /* TMDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDiskCache.m; sourceTree = "<group>"; };
+		934C90FB1A78E4A600A09B61 /* TMMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMMemoryCache.h; sourceTree = "<group>"; };
+		934C90FC1A78E4A600A09B61 /* TMMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMMemoryCache.m; sourceTree = "<group>"; };
+		9355C47C1A6630DB00FC2027 /* GWSDKFindPwdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKFindPwdViewController.h; sourceTree = "<group>"; };
+		9355C47D1A6630DB00FC2027 /* GWSDKFindPwdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKFindPwdViewController.m; sourceTree = "<group>"; };
+		9355C47E1A6630DB00FC2027 /* GWSDKFindPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWSDKFindPwdViewController.xib; sourceTree = "<group>"; };
+		9355C4821A663CF000FC2027 /* GWSDKQuarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKQuarkViewController.h; sourceTree = "<group>"; };
+		9355C4831A663CF000FC2027 /* GWSDKQuarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKQuarkViewController.m; sourceTree = "<group>"; };
+		9355C4841A663CF000FC2027 /* GWSDKQuarkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWSDKQuarkViewController.xib; sourceTree = "<group>"; };
+		9355C4891A663EDC00FC2027 /* TableViewWithBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewWithBlock.h; sourceTree = "<group>"; };
+		9355C48A1A663EDC00FC2027 /* TableViewWithBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewWithBlock.m; sourceTree = "<group>"; };
+		9355C48B1A663EDC00FC2027 /* UITableView+DataSourceBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DataSourceBlocks.h"; sourceTree = "<group>"; };
+		9355C48C1A663EDC00FC2027 /* UITableView+DataSourceBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DataSourceBlocks.m"; sourceTree = "<group>"; };
+		9355C48D1A663EDC00FC2027 /* UITableView+DelegateBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DelegateBlocks.h"; sourceTree = "<group>"; };
+		9355C48E1A663EDC00FC2027 /* UITableView+DelegateBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DelegateBlocks.m"; sourceTree = "<group>"; };
+		9355C4951A6643B900FC2027 /* GWSDKQuarkTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKQuarkTableViewCell.h; sourceTree = "<group>"; };
+		9355C4961A6643B900FC2027 /* GWSDKQuarkTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKQuarkTableViewCell.m; sourceTree = "<group>"; };
+		9355C4971A6643B900FC2027 /* GWSDKQuarkTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWSDKQuarkTableViewCell.xib; sourceTree = "<group>"; };
+		93573E7A1A5FB0C500D44526 /* GWSDKBannerMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKBannerMenuView.h; sourceTree = "<group>"; };
+		93573E7B1A5FB0C500D44526 /* GWSDKBannerMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKBannerMenuView.m; sourceTree = "<group>"; };
+		936A893E1A62778E008F2228 /* UIButton+Bootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bootstrap.h"; sourceTree = "<group>"; };
+		936A893F1A62778E008F2228 /* UIButton+Bootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bootstrap.m"; sourceTree = "<group>"; };
+		936CE7711A67BD490019C7EB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		936CE7731A67BDBD0019C7EB /* codeObfuscation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codeObfuscation.h; sourceTree = "<group>"; };
+		936CE7751A67BDD20019C7EB /* confuse.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = confuse.sh; sourceTree = "<group>"; };
+		936CE7761A67BDD20019C7EB /* func.list */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = func.list; sourceTree = "<group>"; };
+		93740F461A5D6070008AD24F /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		93740F471A5D6070008AD24F /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		93740F481A5D6070008AD24F /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		93740F491A5D6070008AD24F /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		93740F4A1A5D6070008AD24F /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		93740F4B1A5D6070008AD24F /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		93740F4C1A5D6070008AD24F /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		93740F4D1A5D6070008AD24F /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		93740F4F1A5D6070008AD24F /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		93740F501A5D6070008AD24F /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		93740F511A5D6070008AD24F /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		93740F531A5D6070008AD24F /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		93740F541A5D6070008AD24F /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		93740F551A5D6070008AD24F /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		93740F561A5D6070008AD24F /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		93740F571A5D6070008AD24F /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		93740F581A5D6070008AD24F /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		93740F5A1A5D6070008AD24F /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		93740F5B1A5D6070008AD24F /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		93740F5C1A5D6070008AD24F /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		93740F5D1A5D6070008AD24F /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		93740F731A5D65F5008AD24F /* GWNetEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWNetEngine.h; sourceTree = "<group>"; };
+		93740F741A5D65F5008AD24F /* GWNetEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWNetEngine.m; sourceTree = "<group>"; };
+		93740F771A5E1DC2008AD24F /* GWUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWUtility.h; sourceTree = "<group>"; };
+		93740F781A5E1DC2008AD24F /* GWUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWUtility.m; sourceTree = "<group>"; };
+		93740F7B1A5E2A64008AD24F /* GPReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPReachability.h; sourceTree = "<group>"; };
+		93740F7C1A5E2A64008AD24F /* GPReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPReachability.m; sourceTree = "<group>"; };
+		93740F801A5E55A0008AD24F /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		93740F811A5E55A0008AD24F /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		937ADC931A5D03EA0018FADF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		937ADC951A5D03F40018FADF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		937ADC971A5D03FA0018FADF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		937ADC991A5D04020018FADF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		937ADC9B1A5D04090018FADF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		937ADCA31A5D0B700018FADF /* GWGameWorks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWGameWorks.h; sourceTree = "<group>"; };
+		937ADCA41A5D0B700018FADF /* GWGameWorks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWGameWorks.m; sourceTree = "<group>"; };
+		937ADCA71A5D16B90018FADF /* GWObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWObject.h; sourceTree = "<group>"; };
+		937ADCA81A5D16B90018FADF /* GWObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWObject.m; sourceTree = "<group>"; };
+		937ADCAB1A5D178A0018FADF /* GWMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWMacro.h; sourceTree = "<group>"; };
+		937ADCB01A5D2A360018FADF /* GWUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWUser.h; sourceTree = "<group>"; };
+		937ADCB11A5D2A360018FADF /* GWUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWUser.m; sourceTree = "<group>"; };
+		937ADCBF1A5D38E80018FADF /* GWUICKeyChainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWUICKeyChainStore.h; sourceTree = "<group>"; };
+		937ADCC01A5D38E80018FADF /* GWUICKeyChainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWUICKeyChainStore.m; sourceTree = "<group>"; };
+		937ADCC31A5D3B620018FADF /* GWOpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWOpenUDID.h; sourceTree = "<group>"; };
+		937ADCC41A5D3B620018FADF /* GWOpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWOpenUDID.m; sourceTree = "<group>"; };
+		937ADCC71A5D3DE80018FADF /* GWMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWMBase64.h; sourceTree = "<group>"; };
+		937ADCC81A5D3DE80018FADF /* GWMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWMBase64.m; sourceTree = "<group>"; };
+		937ADCC91A5D3DE80018FADF /* GWMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWMDefines.h; sourceTree = "<group>"; };
+		937ADCCD1A5D3E780018FADF /* GWAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWAES.h; sourceTree = "<group>"; };
+		937ADCCE1A5D3E780018FADF /* GWAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWAES.m; sourceTree = "<group>"; };
+		937FE8B21A666D6400B194C3 /* GWSDKBingAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKBingAccountViewController.h; sourceTree = "<group>"; };
+		937FE8B31A666D6400B194C3 /* GWSDKBingAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKBingAccountViewController.m; sourceTree = "<group>"; };
+		937FE8B41A666D6400B194C3 /* GWSDKBingAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWSDKBingAccountViewController.xib; sourceTree = "<group>"; };
+		937FE8B91A6678C800B194C3 /* GWSDKPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKPaymentViewController.h; sourceTree = "<group>"; };
+		937FE8BA1A6678C800B194C3 /* GWSDKPaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKPaymentViewController.m; sourceTree = "<group>"; };
+		937FE8BB1A6678C800B194C3 /* GWSDKPaymentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWSDKPaymentViewController.xib; sourceTree = "<group>"; };
+		9391E53F1A66049100BA6AF4 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		9391E5401A66049100BA6AF4 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		9391E5421A66049100BA6AF4 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		9391E5431A66049100BA6AF4 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		9391E5441A66049100BA6AF4 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		93A2E6871A5A753A00553F17 /* GameWorksPluginSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GameWorksPluginSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A2E6921A5A753A00553F17 /* GameWorksPluginSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameWorksPluginSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A2E6981A5A753A00553F17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A2E6991A5A753A00553F17 /* GameworkSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameworkSDKTests.m; sourceTree = "<group>"; };
+		93AE34511A5FC61E00FC1D35 /* GWSDKNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKNavigationBar.h; sourceTree = "<group>"; };
+		93AE34521A5FC61E00FC1D35 /* GWSDKNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKNavigationBar.m; sourceTree = "<group>"; };
+		93AE34531A5FC61E00FC1D35 /* GWSDKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKNavigationController.h; sourceTree = "<group>"; };
+		93AE34541A5FC61E00FC1D35 /* GWSDKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKNavigationController.m; sourceTree = "<group>"; };
+		93AE34551A5FC61E00FC1D35 /* GWSDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKViewController.h; sourceTree = "<group>"; };
+		93AE34561A5FC61E00FC1D35 /* GWSDKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKViewController.m; sourceTree = "<group>"; };
+		93AE34641A5FCCC600FC1D35 /* GWSDKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKLoginViewController.h; sourceTree = "<group>"; };
+		93AE34651A5FCCC600FC1D35 /* GWSDKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKLoginViewController.m; sourceTree = "<group>"; };
+		93AE34661A5FCCC600FC1D35 /* GWSDKLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWSDKLoginViewController.xib; sourceTree = "<group>"; };
+		93C39C371A5D3F50009759EA /* libUPPayPlugin.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUPPayPlugin.a; sourceTree = "<group>"; };
+		93C39C381A5D3F50009759EA /* UPPayPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPayPlugin.h; sourceTree = "<group>"; };
+		93C39C391A5D3F50009759EA /* UPPayPluginDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPPayPluginDelegate.h; sourceTree = "<group>"; };
+		93C39C3D1A5D3FFF009759EA /* GWGetIPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWGetIPService.h; sourceTree = "<group>"; };
+		93C39C3E1A5D3FFF009759EA /* GWGetIPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWGetIPService.m; sourceTree = "<group>"; };
+		93C39C961A5D515E009759EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93CF519F1A68AC0800F8464B /* GWSDKPayDesStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKPayDesStruct.h; sourceTree = "<group>"; };
+		93CF51A01A68AC0800F8464B /* GWSDKPayDesStruct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKPayDesStruct.m; sourceTree = "<group>"; };
+		93D8AB881A68B7D800CEF07B /* GWSDKRIButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKRIButtonItem.h; sourceTree = "<group>"; };
+		93D8AB891A68B7D800CEF07B /* GWSDKRIButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKRIButtonItem.m; sourceTree = "<group>"; };
+		93D8AB8A1A68B7D800CEF07B /* UIAlertView+GWSDKBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+GWSDKBlocks.h"; sourceTree = "<group>"; };
+		93D8AB8B1A68B7D800CEF07B /* UIAlertView+GWSDKBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+GWSDKBlocks.m"; sourceTree = "<group>"; };
+		93DA5CD71A6A41A9008F9987 /* UIColor+iOS7Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+iOS7Colors.h"; sourceTree = "<group>"; };
+		93DA5CD81A6A41A9008F9987 /* UIColor+iOS7Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+iOS7Colors.m"; sourceTree = "<group>"; };
+		93E5351A1A66A789004E6A79 /* GWSDKPayMentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKPayMentModel.h; sourceTree = "<group>"; };
+		93E5351B1A66A789004E6A79 /* GWSDKPayMentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKPayMentModel.m; sourceTree = "<group>"; };
+		93E5351E1A6756B5004E6A79 /* GWSDKPaymentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKPaymentTableViewCell.h; sourceTree = "<group>"; };
+		93E5351F1A6756B5004E6A79 /* GWSDKPaymentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKPaymentTableViewCell.m; sourceTree = "<group>"; };
+		93E535201A6756B5004E6A79 /* GWSDKPaymentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWSDKPaymentTableViewCell.xib; sourceTree = "<group>"; };
+		93E535241A675E50004E6A79 /* UIImageView+M13AsynchronousImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+M13AsynchronousImageView.h"; sourceTree = "<group>"; };
+		93E535251A675E50004E6A79 /* UIImageView+M13AsynchronousImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+M13AsynchronousImageView.m"; sourceTree = "<group>"; };
+		93E535281A6760FA004E6A79 /* GWSDKPayMent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKPayMent.h; sourceTree = "<group>"; };
+		93E535291A6760FA004E6A79 /* GWSDKPayMent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKPayMent.m; sourceTree = "<group>"; };
+		93E5352C1A676565004E6A79 /* GWSDKOrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKOrderModel.h; sourceTree = "<group>"; };
+		93E5352D1A676565004E6A79 /* GWSDKOrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKOrderModel.m; sourceTree = "<group>"; };
+		93E535301A679CDD004E6A79 /* GWSDKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GWSDKWebViewController.h; sourceTree = "<group>"; };
+		93E535311A679CDD004E6A79 /* GWSDKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GWSDKWebViewController.m; sourceTree = "<group>"; };
+		93E535321A679CDD004E6A79 /* GWSDKWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GWSDKWebViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93A2E6831A5A753A00553F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C39C971A5D515E009759EA /* UIKit.framework in Frameworks */,
+				937ADC9C1A5D04090018FADF /* CoreFoundation.framework in Frameworks */,
+				937ADC9A1A5D04020018FADF /* Foundation.framework in Frameworks */,
+				937ADC981A5D03FA0018FADF /* QuartzCore.framework in Frameworks */,
+				93C39C3A1A5D3F50009759EA /* libUPPayPlugin.a in Frameworks */,
+				937ADC961A5D03F40018FADF /* SystemConfiguration.framework in Frameworks */,
+				937ADC941A5D03EA0018FADF /* Security.framework in Frameworks */,
+				932FE4211A5D03AC0032C92D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A2E68F1A5A753A00553F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A2E6931A5A753A00553F17 /* GameWorksPluginSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9323405E1A6664A0000DBF3F /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				9323405F1A6664B7000DBF3F /* GWSDKUserCenterViewController.h */,
+				932340601A6664B7000DBF3F /* GWSDKUserCenterViewController.m */,
+				932340611A6664B7000DBF3F /* GWSDKUserCenterViewController.xib */,
+				937FE8B21A666D6400B194C3 /* GWSDKBingAccountViewController.h */,
+				937FE8B31A666D6400B194C3 /* GWSDKBingAccountViewController.m */,
+				937FE8B41A666D6400B194C3 /* GWSDKBingAccountViewController.xib */,
+			);
+			name = UserCenter;
+			sourceTree = "<group>";
+		};
+		932F485E1A627A87004AA47D /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				932F485F1A627ADD004AA47D /* GWSDKRegisterViewController.h */,
+				932F48601A627ADD004AA47D /* GWSDKRegisterViewController.m */,
+				932F48611A627ADD004AA47D /* GWSDKRegisterViewController.xib */,
+			);
+			name = Register;
+			sourceTree = "<group>";
+		};
+		932FE41F1A5D02A10032C92D /* GWClasses */ = {
+			isa = PBXGroup;
+			children = (
+				933221A51A5A956B00C6FD3F /* GWApp.h */,
+				937ADCA31A5D0B700018FADF /* GWGameWorks.h */,
+				937ADCA41A5D0B700018FADF /* GWGameWorks.m */,
+				937ADCA71A5D16B90018FADF /* GWObject.h */,
+				937ADCA81A5D16B90018FADF /* GWObject.m */,
+				937ADCAB1A5D178A0018FADF /* GWMacro.h */,
+				937ADCB01A5D2A360018FADF /* GWUser.h */,
+				937ADCB11A5D2A360018FADF /* GWUser.m */,
+				93E535281A6760FA004E6A79 /* GWSDKPayMent.h */,
+				93E535291A6760FA004E6A79 /* GWSDKPayMent.m */,
+			);
+			name = GWClasses;
+			sourceTree = "<group>";
+		};
+		932FE4221A5D03C00032C92D /* SystemFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93C39C961A5D515E009759EA /* UIKit.framework */,
+				937ADC9B1A5D04090018FADF /* CoreFoundation.framework */,
+				937ADC991A5D04020018FADF /* Foundation.framework */,
+				937ADC971A5D03FA0018FADF /* QuartzCore.framework */,
+				937ADC951A5D03F40018FADF /* SystemConfiguration.framework */,
+				937ADC931A5D03EA0018FADF /* Security.framework */,
+				932FE4201A5D03AC0032C92D /* CoreGraphics.framework */,
+			);
+			name = SystemFrameworks;
+			sourceTree = "<group>";
+		};
+		934C90F61A78E4A600A09B61 /* TMCache */ = {
+			isa = PBXGroup;
+			children = (
+				934C90F71A78E4A600A09B61 /* TMCache.h */,
+				934C90F81A78E4A600A09B61 /* TMCache.m */,
+				934C90F91A78E4A600A09B61 /* TMDiskCache.h */,
+				934C90FA1A78E4A600A09B61 /* TMDiskCache.m */,
+				934C90FB1A78E4A600A09B61 /* TMMemoryCache.h */,
+				934C90FC1A78E4A600A09B61 /* TMMemoryCache.m */,
+			);
+			path = TMCache;
+			sourceTree = "<group>";
+		};
+		9355C47B1A6630C600FC2027 /* FindPwd */ = {
+			isa = PBXGroup;
+			children = (
+				9355C47C1A6630DB00FC2027 /* GWSDKFindPwdViewController.h */,
+				9355C47D1A6630DB00FC2027 /* GWSDKFindPwdViewController.m */,
+				9355C47E1A6630DB00FC2027 /* GWSDKFindPwdViewController.xib */,
+				93171D4E1A75ED2A00785835 /* GWSDKChangePwdViewController.h */,
+				93171D4F1A75ED2A00785835 /* GWSDKChangePwdViewController.m */,
+				93171D501A75ED2A00785835 /* GWSDKChangePwdViewController.xib */,
+			);
+			name = FindPwd;
+			sourceTree = "<group>";
+		};
+		9355C4881A663EDC00FC2027 /* GWTableView */ = {
+			isa = PBXGroup;
+			children = (
+				9355C4891A663EDC00FC2027 /* TableViewWithBlock.h */,
+				9355C48A1A663EDC00FC2027 /* TableViewWithBlock.m */,
+				9355C48B1A663EDC00FC2027 /* UITableView+DataSourceBlocks.h */,
+				9355C48C1A663EDC00FC2027 /* UITableView+DataSourceBlocks.m */,
+				9355C48D1A663EDC00FC2027 /* UITableView+DelegateBlocks.h */,
+				9355C48E1A663EDC00FC2027 /* UITableView+DelegateBlocks.m */,
+			);
+			path = GWTableView;
+			sourceTree = "<group>";
+		};
+		936CE7701A67BD390019C7EB /* GWCodeOperation */ = {
+			isa = PBXGroup;
+			children = (
+				936CE7711A67BD490019C7EB /* PrefixHeader.pch */,
+				936CE7731A67BDBD0019C7EB /* codeObfuscation.h */,
+				936CE7751A67BDD20019C7EB /* confuse.sh */,
+				936CE7761A67BDD20019C7EB /* func.list */,
+			);
+			name = GWCodeOperation;
+			sourceTree = "<group>";
+		};
+		93740F441A5D6070008AD24F /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				93740F451A5D6070008AD24F /* JSONModel */,
+				93740F4E1A5D6070008AD24F /* JSONModelCategories */,
+				93740F511A5D6070008AD24F /* JSONModelLib.h */,
+				93740F521A5D6070008AD24F /* JSONModelNetworking */,
+				93740F591A5D6070008AD24F /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		93740F451A5D6070008AD24F /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				93740F461A5D6070008AD24F /* JSONModel.h */,
+				93740F471A5D6070008AD24F /* JSONModel.m */,
+				93740F481A5D6070008AD24F /* JSONModelArray.h */,
+				93740F491A5D6070008AD24F /* JSONModelArray.m */,
+				93740F4A1A5D6070008AD24F /* JSONModelClassProperty.h */,
+				93740F4B1A5D6070008AD24F /* JSONModelClassProperty.m */,
+				93740F4C1A5D6070008AD24F /* JSONModelError.h */,
+				93740F4D1A5D6070008AD24F /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		93740F4E1A5D6070008AD24F /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				93740F4F1A5D6070008AD24F /* NSArray+JSONModel.h */,
+				93740F501A5D6070008AD24F /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		93740F521A5D6070008AD24F /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				93740F531A5D6070008AD24F /* JSONAPI.h */,
+				93740F541A5D6070008AD24F /* JSONAPI.m */,
+				93740F551A5D6070008AD24F /* JSONHTTPClient.h */,
+				93740F561A5D6070008AD24F /* JSONHTTPClient.m */,
+				93740F571A5D6070008AD24F /* JSONModel+networking.h */,
+				93740F581A5D6070008AD24F /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		93740F591A5D6070008AD24F /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				93740F5A1A5D6070008AD24F /* JSONKeyMapper.h */,
+				93740F5B1A5D6070008AD24F /* JSONKeyMapper.m */,
+				93740F5C1A5D6070008AD24F /* JSONValueTransformer.h */,
+				93740F5D1A5D6070008AD24F /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		93740F7F1A5E55A0008AD24F /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				93740F801A5E55A0008AD24F /* JSONKit.h */,
+				93740F811A5E55A0008AD24F /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		93751DA71A6F4C960026E14C /* OtherView */ = {
+			isa = PBXGroup;
+			children = (
+				93171D361A75ECD600785835 /* GWSDKAboutUSViewController.h */,
+				93171D371A75ECD600785835 /* GWSDKAboutUSViewController.m */,
+				93171D381A75ECD600785835 /* GWSDKAboutUSViewController.xib */,
+				93171D3C1A75ECEA00785835 /* GWSDKHelpViewController.h */,
+				93171D3D1A75ECEA00785835 /* GWSDKHelpViewController.m */,
+				93171D3E1A75ECEA00785835 /* GWSDKHelpViewController.xib */,
+			);
+			name = OtherView;
+			sourceTree = "<group>";
+		};
+		937ADCB91A5D38D60018FADF /* GWPrivateClasses */ = {
+			isa = PBXGroup;
+			children = (
+				93DA5CD71A6A41A9008F9987 /* UIColor+iOS7Colors.h */,
+				93DA5CD81A6A41A9008F9987 /* UIColor+iOS7Colors.m */,
+				93E535241A675E50004E6A79 /* UIImageView+M13AsynchronousImageView.h */,
+				93E535251A675E50004E6A79 /* UIImageView+M13AsynchronousImageView.m */,
+				936A893E1A62778E008F2228 /* UIButton+Bootstrap.h */,
+				936A893F1A62778E008F2228 /* UIButton+Bootstrap.m */,
+				93D8AB881A68B7D800CEF07B /* GWSDKRIButtonItem.h */,
+				93D8AB891A68B7D800CEF07B /* GWSDKRIButtonItem.m */,
+				93D8AB8A1A68B7D800CEF07B /* UIAlertView+GWSDKBlocks.h */,
+				93D8AB8B1A68B7D800CEF07B /* UIAlertView+GWSDKBlocks.m */,
+			);
+			path = GWPrivateClasses;
+			sourceTree = "<group>";
+		};
+		937ADCBA1A5D38D60018FADF /* GWSources */ = {
+			isa = PBXGroup;
+			children = (
+				9339FF231A5FBAB700DE37AA /* GameWorksSDKBundle.bundle */,
+			);
+			path = GWSources;
+			sourceTree = "<group>";
+		};
+		937ADCBB1A5D38D60018FADF /* GWThrids3rd */ = {
+			isa = PBXGroup;
+			children = (
+				934C90F61A78E4A600A09B61 /* TMCache */,
+				9355C4881A663EDC00FC2027 /* GWTableView */,
+				9391E53E1A66049100BA6AF4 /* SVProgressHUD */,
+				93740F7F1A5E55A0008AD24F /* JSONKit */,
+				93740F441A5D6070008AD24F /* JSONModel */,
+				93C39C361A5D3F50009759EA /* UPPay */,
+			);
+			path = GWThrids3rd;
+			sourceTree = "<group>";
+		};
+		937ADCBC1A5D38D60018FADF /* GWUtils */ = {
+			isa = PBXGroup;
+			children = (
+				937ADCBF1A5D38E80018FADF /* GWUICKeyChainStore.h */,
+				937ADCC01A5D38E80018FADF /* GWUICKeyChainStore.m */,
+				937ADCC31A5D3B620018FADF /* GWOpenUDID.h */,
+				937ADCC41A5D3B620018FADF /* GWOpenUDID.m */,
+				937ADCC71A5D3DE80018FADF /* GWMBase64.h */,
+				937ADCC81A5D3DE80018FADF /* GWMBase64.m */,
+				937ADCC91A5D3DE80018FADF /* GWMDefines.h */,
+				937ADCCD1A5D3E780018FADF /* GWAES.h */,
+				937ADCCE1A5D3E780018FADF /* GWAES.m */,
+				93C39C3D1A5D3FFF009759EA /* GWGetIPService.h */,
+				93C39C3E1A5D3FFF009759EA /* GWGetIPService.m */,
+				93740F771A5E1DC2008AD24F /* GWUtility.h */,
+				93740F781A5E1DC2008AD24F /* GWUtility.m */,
+				93740F7B1A5E2A64008AD24F /* GPReachability.h */,
+				93740F7C1A5E2A64008AD24F /* GPReachability.m */,
+			);
+			path = GWUtils;
+			sourceTree = "<group>";
+		};
+		937ADCBD1A5D38D60018FADF /* GWVenders */ = {
+			isa = PBXGroup;
+			children = (
+				93E535191A66A767004E6A79 /* GWJsonModel */,
+				93740F731A5D65F5008AD24F /* GWNetEngine.h */,
+				93740F741A5D65F5008AD24F /* GWNetEngine.m */,
+			);
+			path = GWVenders;
+			sourceTree = "<group>";
+		};
+		937ADCBE1A5D38D60018FADF /* GWViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				93751DA71A6F4C960026E14C /* OtherView */,
+				937FE8B81A6678A900B194C3 /* PaymentView */,
+				9323405E1A6664A0000DBF3F /* UserCenter */,
+				9355C47B1A6630C600FC2027 /* FindPwd */,
+				932F485E1A627A87004AA47D /* Register */,
+				93AE34631A5FCCA900FC1D35 /* Login */,
+				93AE34621A5FCC9E00FC1D35 /* Support */,
+			);
+			path = GWViewControllers;
+			sourceTree = "<group>";
+		};
+		937FE8B81A6678A900B194C3 /* PaymentView */ = {
+			isa = PBXGroup;
+			children = (
+				937FE8B91A6678C800B194C3 /* GWSDKPaymentViewController.h */,
+				937FE8BA1A6678C800B194C3 /* GWSDKPaymentViewController.m */,
+				937FE8BB1A6678C800B194C3 /* GWSDKPaymentViewController.xib */,
+				93E5351E1A6756B5004E6A79 /* GWSDKPaymentTableViewCell.h */,
+				93E5351F1A6756B5004E6A79 /* GWSDKPaymentTableViewCell.m */,
+				93E535201A6756B5004E6A79 /* GWSDKPaymentTableViewCell.xib */,
+				93E535301A679CDD004E6A79 /* GWSDKWebViewController.h */,
+				93E535311A679CDD004E6A79 /* GWSDKWebViewController.m */,
+				93E535321A679CDD004E6A79 /* GWSDKWebViewController.xib */,
+				93CF519F1A68AC0800F8464B /* GWSDKPayDesStruct.h */,
+				93CF51A01A68AC0800F8464B /* GWSDKPayDesStruct.m */,
+				93171D421A75ED1900785835 /* GDSDKPayHistoryTableViewCell.h */,
+				93171D431A75ED1900785835 /* GDSDKPayHistoryTableViewCell.m */,
+				93171D451A75ED1900785835 /* GWSDKPayHistoryViewController.h */,
+				93171D461A75ED1900785835 /* GWSDKPayHistoryViewController.m */,
+				93171D471A75ED1900785835 /* GWSDKPayHistoryViewController.xib */,
+			);
+			name = PaymentView;
+			sourceTree = "<group>";
+		};
+		9391E53E1A66049100BA6AF4 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9391E53F1A66049100BA6AF4 /* SVIndefiniteAnimatedView.h */,
+				9391E5401A66049100BA6AF4 /* SVIndefiniteAnimatedView.m */,
+				9391E5421A66049100BA6AF4 /* SVProgressHUD.bundle */,
+				9391E5431A66049100BA6AF4 /* SVProgressHUD.h */,
+				9391E5441A66049100BA6AF4 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		93A2E67D1A5A753A00553F17 = {
+			isa = PBXGroup;
+			children = (
+				932FE4221A5D03C00032C92D /* SystemFrameworks */,
+				93A2E6891A5A753A00553F17 /* GameWorksPluginSDK */,
+				93A2E6961A5A753A00553F17 /* GameworkSDKTests */,
+				93A2E6881A5A753A00553F17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93A2E6881A5A753A00553F17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93A2E6871A5A753A00553F17 /* GameWorksPluginSDK.framework */,
+				93A2E6921A5A753A00553F17 /* GameWorksPluginSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93A2E6891A5A753A00553F17 /* GameWorksPluginSDK */ = {
+			isa = PBXGroup;
+			children = (
+				936CE7701A67BD390019C7EB /* GWCodeOperation */,
+				937ADCB91A5D38D60018FADF /* GWPrivateClasses */,
+				937ADCBA1A5D38D60018FADF /* GWSources */,
+				937ADCBB1A5D38D60018FADF /* GWThrids3rd */,
+				937ADCBC1A5D38D60018FADF /* GWUtils */,
+				937ADCBD1A5D38D60018FADF /* GWVenders */,
+				937ADCBE1A5D38D60018FADF /* GWViewControllers */,
+				932FE41F1A5D02A10032C92D /* GWClasses */,
+				93A2E68A1A5A753A00553F17 /* Supporting Files */,
+			);
+			path = GameWorksPluginSDK;
+			sourceTree = "<group>";
+		};
+		93A2E68A1A5A753A00553F17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93171D561A75EE6F00785835 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93A2E6961A5A753A00553F17 /* GameworkSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				93A2E6991A5A753A00553F17 /* GameworkSDKTests.m */,
+				93A2E6971A5A753A00553F17 /* Supporting Files */,
+			);
+			path = GameworkSDKTests;
+			sourceTree = "<group>";
+		};
+		93A2E6971A5A753A00553F17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93A2E6981A5A753A00553F17 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93AE34621A5FCC9E00FC1D35 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				93573E7A1A5FB0C500D44526 /* GWSDKBannerMenuView.h */,
+				93573E7B1A5FB0C500D44526 /* GWSDKBannerMenuView.m */,
+				93AE34511A5FC61E00FC1D35 /* GWSDKNavigationBar.h */,
+				93AE34521A5FC61E00FC1D35 /* GWSDKNavigationBar.m */,
+				93AE34531A5FC61E00FC1D35 /* GWSDKNavigationController.h */,
+				93AE34541A5FC61E00FC1D35 /* GWSDKNavigationController.m */,
+				93AE34551A5FC61E00FC1D35 /* GWSDKViewController.h */,
+				93AE34561A5FC61E00FC1D35 /* GWSDKViewController.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		93AE34631A5FCCA900FC1D35 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				93AE34641A5FCCC600FC1D35 /* GWSDKLoginViewController.h */,
+				93AE34651A5FCCC600FC1D35 /* GWSDKLoginViewController.m */,
+				93AE34661A5FCCC600FC1D35 /* GWSDKLoginViewController.xib */,
+				9355C4821A663CF000FC2027 /* GWSDKQuarkViewController.h */,
+				9355C4831A663CF000FC2027 /* GWSDKQuarkViewController.m */,
+				9355C4841A663CF000FC2027 /* GWSDKQuarkViewController.xib */,
+				9355C4951A6643B900FC2027 /* GWSDKQuarkTableViewCell.h */,
+				9355C4961A6643B900FC2027 /* GWSDKQuarkTableViewCell.m */,
+				9355C4971A6643B900FC2027 /* GWSDKQuarkTableViewCell.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		93C39C361A5D3F50009759EA /* UPPay */ = {
+			isa = PBXGroup;
+			children = (
+				93C39C371A5D3F50009759EA /* libUPPayPlugin.a */,
+				93C39C381A5D3F50009759EA /* UPPayPlugin.h */,
+				93C39C391A5D3F50009759EA /* UPPayPluginDelegate.h */,
+			);
+			path = UPPay;
+			sourceTree = "<group>";
+		};
+		93E535191A66A767004E6A79 /* GWJsonModel */ = {
+			isa = PBXGroup;
+			children = (
+				93E5351A1A66A789004E6A79 /* GWSDKPayMentModel.h */,
+				93E5351B1A66A789004E6A79 /* GWSDKPayMentModel.m */,
+				93E5352C1A676565004E6A79 /* GWSDKOrderModel.h */,
+				93E5352D1A676565004E6A79 /* GWSDKOrderModel.m */,
+				932D446A1A76309C0048D92D /* GWSDKPayPluginOrder.h */,
+				932D446B1A76309C0048D92D /* GWSDKPayPluginOrder.m */,
+			);
+			name = GWJsonModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		93A2E6841A5A753A00553F17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C39C3C1A5D3F51009759EA /* UPPayPluginDelegate.h in Headers */,
+				93C39C3F1A5D3FFF009759EA /* GWGetIPService.h in Headers */,
+				932D446C1A76309C0048D92D /* GWSDKPayPluginOrder.h in Headers */,
+				93E535211A6756B5004E6A79 /* GWSDKPaymentTableViewCell.h in Headers */,
+				933221A61A5A956B00C6FD3F /* GWApp.h in Headers */,
+				93740F691A5D6070008AD24F /* JSONAPI.h in Headers */,
+				9355C47F1A6630DB00FC2027 /* GWSDKFindPwdViewController.h in Headers */,
+				93E5352E1A676565004E6A79 /* GWSDKOrderModel.h in Headers */,
+				93C39C3B1A5D3F51009759EA /* UPPayPlugin.h in Headers */,
+				93E535261A675E50004E6A79 /* UIImageView+M13AsynchronousImageView.h in Headers */,
+				93740F621A5D6070008AD24F /* JSONModelClassProperty.h in Headers */,
+				93171D391A75ECD600785835 /* GWSDKAboutUSViewController.h in Headers */,
+				932340621A6664B7000DBF3F /* GWSDKUserCenterViewController.h in Headers */,
+				937ADCCF1A5D3E780018FADF /* GWAES.h in Headers */,
+				93740F601A5D6070008AD24F /* JSONModelArray.h in Headers */,
+				93740F681A5D6070008AD24F /* JSONModelLib.h in Headers */,
+				93740F831A5E55A0008AD24F /* JSONKit.h in Headers */,
+				93171D511A75ED2A00785835 /* GWSDKChangePwdViewController.h in Headers */,
+				937ADCCA1A5D3DE80018FADF /* GWMBase64.h in Headers */,
+				937ADCA51A5D0B700018FADF /* GWGameWorks.h in Headers */,
+				93740F791A5E1DC2008AD24F /* GWUtility.h in Headers */,
+				93740F6F1A5D6070008AD24F /* JSONKeyMapper.h in Headers */,
+				937ADCC51A5D3B620018FADF /* GWOpenUDID.h in Headers */,
+				937ADCB21A5D2A360018FADF /* GWUser.h in Headers */,
+				937ADCA91A5D16B90018FADF /* GWObject.h in Headers */,
+				937FE8BC1A6678C800B194C3 /* GWSDKPaymentViewController.h in Headers */,
+				9391E5491A66049100BA6AF4 /* SVProgressHUD.h in Headers */,
+				93AE345B1A5FC61E00FC1D35 /* GWSDKViewController.h in Headers */,
+				9355C48F1A663EDC00FC2027 /* TableViewWithBlock.h in Headers */,
+				934C90FF1A78E4A600A09B61 /* TMDiskCache.h in Headers */,
+				93AE34591A5FC61E00FC1D35 /* GWSDKNavigationController.h in Headers */,
+				9355C4981A6643B900FC2027 /* GWSDKQuarkTableViewCell.h in Headers */,
+				93740F7D1A5E2A64008AD24F /* GPReachability.h in Headers */,
+				93E5352A1A6760FA004E6A79 /* GWSDKPayMent.h in Headers */,
+				93740F6D1A5D6070008AD24F /* JSONModel+networking.h in Headers */,
+				936A89401A62778E008F2228 /* UIButton+Bootstrap.h in Headers */,
+				9391E5451A66049100BA6AF4 /* SVIndefiniteAnimatedView.h in Headers */,
+				932F48621A627ADD004AA47D /* GWSDKRegisterViewController.h in Headers */,
+				93D8AB8C1A68B7D800CEF07B /* GWSDKRIButtonItem.h in Headers */,
+				93171D3F1A75ECEA00785835 /* GWSDKHelpViewController.h in Headers */,
+				93740F5E1A5D6070008AD24F /* JSONModel.h in Headers */,
+				9355C4911A663EDC00FC2027 /* UITableView+DataSourceBlocks.h in Headers */,
+				93171D4B1A75ED1900785835 /* GWSDKPayHistoryViewController.h in Headers */,
+				937FE8B51A666D6400B194C3 /* GWSDKBingAccountViewController.h in Headers */,
+				93740F661A5D6070008AD24F /* NSArray+JSONModel.h in Headers */,
+				9355C4851A663CF000FC2027 /* GWSDKQuarkViewController.h in Headers */,
+				93573E7C1A5FB0C500D44526 /* GWSDKBannerMenuView.h in Headers */,
+				93AE34571A5FC61E00FC1D35 /* GWSDKNavigationBar.h in Headers */,
+				93AE34671A5FCCC600FC1D35 /* GWSDKLoginViewController.h in Headers */,
+				937ADCC11A5D38E80018FADF /* GWUICKeyChainStore.h in Headers */,
+				934C91011A78E4A600A09B61 /* TMMemoryCache.h in Headers */,
+				93D8AB8E1A68B7D800CEF07B /* UIAlertView+GWSDKBlocks.h in Headers */,
+				934C90FD1A78E4A600A09B61 /* TMCache.h in Headers */,
+				93E535331A679CDD004E6A79 /* GWSDKWebViewController.h in Headers */,
+				93DA5CD91A6A41A9008F9987 /* UIColor+iOS7Colors.h in Headers */,
+				937ADCAD1A5D178A0018FADF /* GWMacro.h in Headers */,
+				937ADCCC1A5D3DE80018FADF /* GWMDefines.h in Headers */,
+				93740F641A5D6070008AD24F /* JSONModelError.h in Headers */,
+				93740F751A5D65F5008AD24F /* GWNetEngine.h in Headers */,
+				93740F711A5D6070008AD24F /* JSONValueTransformer.h in Headers */,
+				93171D481A75ED1900785835 /* GDSDKPayHistoryTableViewCell.h in Headers */,
+				936CE7721A67BD490019C7EB /* PrefixHeader.pch in Headers */,
+				93740F6B1A5D6070008AD24F /* JSONHTTPClient.h in Headers */,
+				936CE7741A67BDBD0019C7EB /* codeObfuscation.h in Headers */,
+				9355C4931A663EDC00FC2027 /* UITableView+DelegateBlocks.h in Headers */,
+				93E5351C1A66A789004E6A79 /* GWSDKPayMentModel.h in Headers */,
+				93CF51A11A68AC0800F8464B /* GWSDKPayDesStruct.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		93A2E6861A5A753A00553F17 /* GameWorksPluginSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A2E69D1A5A753A00553F17 /* Build configuration list for PBXNativeTarget "GameWorksPluginSDK" */;
+			buildPhases = (
+				93A2E6821A5A753A00553F17 /* Sources */,
+				93A2E6831A5A753A00553F17 /* Frameworks */,
+				93A2E6841A5A753A00553F17 /* Headers */,
+				93A2E6851A5A753A00553F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameWorksPluginSDK;
+			productName = GameworkSDK;
+			productReference = 93A2E6871A5A753A00553F17 /* GameWorksPluginSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		93A2E6911A5A753A00553F17 /* GameWorksPluginSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93A2E6A01A5A753A00553F17 /* Build configuration list for PBXNativeTarget "GameWorksPluginSDKTests" */;
+			buildPhases = (
+				93A2E68E1A5A753A00553F17 /* Sources */,
+				93A2E68F1A5A753A00553F17 /* Frameworks */,
+				93A2E6901A5A753A00553F17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93A2E6951A5A753A00553F17 /* PBXTargetDependency */,
+			);
+			name = GameWorksPluginSDKTests;
+			productName = GameworkSDKTests;
+			productReference = 93A2E6921A5A753A00553F17 /* GameWorksPluginSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93A2E67E1A5A753A00553F17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "___GAMEWORK___";
+				TargetAttributes = {
+					938BC8AA1A5A788C0068600D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					93A2E6861A5A753A00553F17 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 3K92W7SPWR;
+					};
+					93A2E6911A5A753A00553F17 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 3K92W7SPWR;
+					};
+				};
+			};
+			buildConfigurationList = 93A2E6811A5A753A00553F17 /* Build configuration list for PBXProject "GameWorksPluginSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93A2E67D1A5A753A00553F17;
+			productRefGroup = 93A2E6881A5A753A00553F17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93A2E6861A5A753A00553F17 /* GameWorksPluginSDK */,
+				93A2E6911A5A753A00553F17 /* GameWorksPluginSDKTests */,
+				938BC8AA1A5A788C0068600D /* GameWorksPluginSDKAggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93A2E6851A5A753A00553F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93171D411A75ECEA00785835 /* GWSDKHelpViewController.xib in Resources */,
+				93E535351A679CDD004E6A79 /* GWSDKWebViewController.xib in Resources */,
+				9355C4811A6630DB00FC2027 /* GWSDKFindPwdViewController.xib in Resources */,
+				93E535231A6756B5004E6A79 /* GWSDKPaymentTableViewCell.xib in Resources */,
+				937FE8B71A666D6400B194C3 /* GWSDKBingAccountViewController.xib in Resources */,
+				937FE8BE1A6678C800B194C3 /* GWSDKPaymentViewController.xib in Resources */,
+				93171D4D1A75ED1900785835 /* GWSDKPayHistoryViewController.xib in Resources */,
+				93171D571A75EE6F00785835 /* Info.plist in Resources */,
+				936CE7771A67BDD20019C7EB /* confuse.sh in Resources */,
+				9339FF241A5FBAB700DE37AA /* GameWorksSDKBundle.bundle in Resources */,
+				932F48641A627ADD004AA47D /* GWSDKRegisterViewController.xib in Resources */,
+				9355C4871A663CF000FC2027 /* GWSDKQuarkViewController.xib in Resources */,
+				93171D531A75ED2A00785835 /* GWSDKChangePwdViewController.xib in Resources */,
+				932340641A6664B7000DBF3F /* GWSDKUserCenterViewController.xib in Resources */,
+				9355C49A1A6643B900FC2027 /* GWSDKQuarkTableViewCell.xib in Resources */,
+				93AE34691A5FCCC600FC1D35 /* GWSDKLoginViewController.xib in Resources */,
+				9391E5481A66049100BA6AF4 /* SVProgressHUD.bundle in Resources */,
+				936CE7781A67BDD20019C7EB /* func.list in Resources */,
+				93171D3B1A75ECD600785835 /* GWSDKAboutUSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A2E6901A5A753A00553F17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9344458A1A5FD578005FD721 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "BUNDLE_DIR=${PROJECT_DIR}/${PROJECT_NAME}/GWSources/GameWorksSDKBundle.bundle\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework\n\necho \"${BUNDLE_DIR}\"\necho \"${INSTALL_DIR}\"\n\nif [ -d \"${BUNDLE_DIR}\" ];then\nif ls ${INSTALL_DIR}/*.nib >/dev/null 2>&1;then\n    rm -rf ${BUNDLE_DIR}/*.nib\n    cp -rf ${INSTALL_DIR}/*.nib ${BUNDLE_DIR}\n    rm -rf ${INSTALL_DIR}/*.nib\n    \n    # copy to bundle\n    rm -rf ${INSTALL_DIR}/GameWorksSDKBundle.bundle\n    cp -rf ${BUNDLE_DIR} ${INSTALL_DIR}\n                     \nfi\nfi\n\necho \"copy Products/***.framworks/**.nib to *.bundle\"\n\n\n\n\n\n";
+		};
+		936CE7791A67BE4A0019C7EB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PROJECT_DIR/${PROJECT_NAME}/confuse.sh";
+		};
+		938BC8AE1A5A78900068600D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\n# 如果工程名称和Framework的Target名称不一样的话，要自定义FMKNAME\n# 例如: FMK_NAME = \"GameworkSDKFramewrok\"\nFMK_NAME=${PROJECT_NAME}\n\nSF_EXECUTABLE_PATH=\"lib${FMK_NAME}.a\"\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\necho \"------------------------ \"\necho \"${DEVICE_DIR}/${FMK_NAME}\"\necho \"------------------------ \"\necho \"${SIMULATOR_DIR}/${FMK_NAME}\"\necho \"------------------------ \"\necho \"${INSTALL_DIR}/${FMK_NAME}\"\necho \"------------------------ \"\n\n# -configuration ${CONFIGURATION}\n# Clean and Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos clean build\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator clean build\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\n    rm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\n#cp -R \"${SRCROOT}/${DEVICE_DIR}/\" \"${INSTALL_DIR}\"\n\ncp -R \"${SRCROOT}/${DEVICE_DIR}/\" \"${INSTALL_DIR}\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\n\n#buile *.framework \"${SIMULATOR_DIR}/${FMK_NAME}\"\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\"  -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\n#build  *.a\n#lipo -create \"${DEVICE_DIR}/${SF_EXECUTABLE_PATH}\" \"${SIMULATOR_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${INSTALL_DIR}/${SF_EXECUTABLE_PATH}\"\n\n\nrm -r \"${WRK_DIR}\"\n\nopen \"${INSTALL_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93A2E6821A5A753A00553F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93740F761A5D65F5008AD24F /* GWNetEngine.m in Sources */,
+				93171D491A75ED1900785835 /* GDSDKPayHistoryTableViewCell.m in Sources */,
+				93740F6C1A5D6070008AD24F /* JSONHTTPClient.m in Sources */,
+				9355C4921A663EDC00FC2027 /* UITableView+DataSourceBlocks.m in Sources */,
+				936A89411A62778E008F2228 /* UIButton+Bootstrap.m in Sources */,
+				93AE345A1A5FC61E00FC1D35 /* GWSDKNavigationController.m in Sources */,
+				9355C4861A663CF000FC2027 /* GWSDKQuarkViewController.m in Sources */,
+				93740F6A1A5D6070008AD24F /* JSONAPI.m in Sources */,
+				9391E5461A66049100BA6AF4 /* SVIndefiniteAnimatedView.m in Sources */,
+				93E535341A679CDD004E6A79 /* GWSDKWebViewController.m in Sources */,
+				93740F651A5D6070008AD24F /* JSONModelError.m in Sources */,
+				932F48631A627ADD004AA47D /* GWSDKRegisterViewController.m in Sources */,
+				93171D3A1A75ECD600785835 /* GWSDKAboutUSViewController.m in Sources */,
+				932340631A6664B7000DBF3F /* GWSDKUserCenterViewController.m in Sources */,
+				937ADCD01A5D3E780018FADF /* GWAES.m in Sources */,
+				93AE345C1A5FC61E00FC1D35 /* GWSDKViewController.m in Sources */,
+				93740F7E1A5E2A64008AD24F /* GPReachability.m in Sources */,
+				93D8AB8D1A68B7D800CEF07B /* GWSDKRIButtonItem.m in Sources */,
+				937ADCCB1A5D3DE80018FADF /* GWMBase64.m in Sources */,
+				93E5352B1A6760FA004E6A79 /* GWSDKPayMent.m in Sources */,
+				937ADCAA1A5D16B90018FADF /* GWObject.m in Sources */,
+				937ADCB31A5D2A360018FADF /* GWUser.m in Sources */,
+				93740F631A5D6070008AD24F /* JSONModelClassProperty.m in Sources */,
+				93E5351D1A66A789004E6A79 /* GWSDKPayMentModel.m in Sources */,
+				93740F841A5E55A0008AD24F /* JSONKit.m in Sources */,
+				93740F671A5D6070008AD24F /* NSArray+JSONModel.m in Sources */,
+				93171D401A75ECEA00785835 /* GWSDKHelpViewController.m in Sources */,
+				93573E7D1A5FB0C500D44526 /* GWSDKBannerMenuView.m in Sources */,
+				934C90FE1A78E4A600A09B61 /* TMCache.m in Sources */,
+				93C39C401A5D3FFF009759EA /* GWGetIPService.m in Sources */,
+				93E535221A6756B5004E6A79 /* GWSDKPaymentTableViewCell.m in Sources */,
+				93E535271A675E50004E6A79 /* UIImageView+M13AsynchronousImageView.m in Sources */,
+				9355C4991A6643B900FC2027 /* GWSDKQuarkTableViewCell.m in Sources */,
+				934C91021A78E4A600A09B61 /* TMMemoryCache.m in Sources */,
+				93AE34681A5FCCC600FC1D35 /* GWSDKLoginViewController.m in Sources */,
+				93740F611A5D6070008AD24F /* JSONModelArray.m in Sources */,
+				93740F721A5D6070008AD24F /* JSONValueTransformer.m in Sources */,
+				93E5352F1A676565004E6A79 /* GWSDKOrderModel.m in Sources */,
+				93DA5CDA1A6A41A9008F9987 /* UIColor+iOS7Colors.m in Sources */,
+				9355C4941A663EDC00FC2027 /* UITableView+DelegateBlocks.m in Sources */,
+				93740F701A5D6070008AD24F /* JSONKeyMapper.m in Sources */,
+				937FE8BD1A6678C800B194C3 /* GWSDKPaymentViewController.m in Sources */,
+				937ADCA61A5D0B700018FADF /* GWGameWorks.m in Sources */,
+				9355C4901A663EDC00FC2027 /* TableViewWithBlock.m in Sources */,
+				93740F5F1A5D6070008AD24F /* JSONModel.m in Sources */,
+				93AE34581A5FC61E00FC1D35 /* GWSDKNavigationBar.m in Sources */,
+				93171D4C1A75ED1900785835 /* GWSDKPayHistoryViewController.m in Sources */,
+				932D446D1A76309C0048D92D /* GWSDKPayPluginOrder.m in Sources */,
+				937FE8B61A666D6400B194C3 /* GWSDKBingAccountViewController.m in Sources */,
+				93740F7A1A5E1DC2008AD24F /* GWUtility.m in Sources */,
+				937ADCC21A5D38E80018FADF /* GWUICKeyChainStore.m in Sources */,
+				937ADCC61A5D3B620018FADF /* GWOpenUDID.m in Sources */,
+				9355C4801A6630DB00FC2027 /* GWSDKFindPwdViewController.m in Sources */,
+				934C91001A78E4A600A09B61 /* TMDiskCache.m in Sources */,
+				93171D521A75ED2A00785835 /* GWSDKChangePwdViewController.m in Sources */,
+				9391E54A1A66049100BA6AF4 /* SVProgressHUD.m in Sources */,
+				93D8AB8F1A68B7D800CEF07B /* UIAlertView+GWSDKBlocks.m in Sources */,
+				93CF51A21A68AC0800F8464B /* GWSDKPayDesStruct.m in Sources */,
+				93740F6E1A5D6070008AD24F /* JSONModel+networking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A2E68E1A5A753A00553F17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A2E69A1A5A753A00553F17 /* GameworkSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93A2E6951A5A753A00553F17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93A2E6861A5A753A00553F17 /* GameWorksPluginSDK */;
+			targetProxy = 93A2E6941A5A753A00553F17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		938BC8AC1A5A788C0068600D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_INSTALL_NAME_BASE = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/${PROJECT_NAME}/GWSources",
+				);
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/${PROJECT_NAME}/GWThrids3rd/UPPay";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = GameWorksPluginSDKAggregate;
+			};
+			name = Debug;
+		};
+		938BC8AD1A5A788C0068600D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_INSTALL_NAME_BASE = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/${PROJECT_NAME}/GWSources",
+				);
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/${PROJECT_NAME}/GWThrids3rd/UPPay";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = GameWorksPluginSDKAggregate;
+			};
+			name = Release;
+		};
+		93A2E69B1A5A753A00553F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93A2E69C1A5A753A00553F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93A2E69E1A5A753A00553F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3K92W7SPWR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/${PROJECT_NAME}/GWSources",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/${PROJECT_NAME}/PrefixHeader.pch";
+				INFOPLIST_FILE = "${PROJECT_NAME}/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_DYLIB_INSTALL_NAME = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/${PROJECT_NAME}/GWThrids3rd/UPPay",
+					"$(PROJECT_DIR)/${PROJECT_NAME}/GWSources",
+				);
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = GameWorksPluginSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		93A2E69F1A5A753A00553F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3K92W7SPWR;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/${PROJECT_NAME}/GWSources",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/${PROJECT_NAME}/PrefixHeader.pch";
+				INFOPLIST_FILE = "${PROJECT_NAME}/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_DYLIB_INSTALL_NAME = "";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/${PROJECT_NAME}/GWThrids3rd/UPPay",
+					"$(PROJECT_DIR)/${PROJECT_NAME}/GWSources",
+				);
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_NAME = GameWorksPluginSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		93A2E6A11A5A753A00553F17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3K92W7SPWR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GameworkSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = GameWorksPluginSDKTests;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Debug;
+		};
+		93A2E6A21A5A753A00553F17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3K92W7SPWR;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GameworkSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = GameWorksPluginSDKTests;
+				VALID_ARCHS = "armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		938BC8AB1A5A788C0068600D /* Build configuration list for PBXAggregateTarget "GameWorksPluginSDKAggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				938BC8AC1A5A788C0068600D /* Debug */,
+				938BC8AD1A5A788C0068600D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A2E6811A5A753A00553F17 /* Build configuration list for PBXProject "GameWorksPluginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A2E69B1A5A753A00553F17 /* Debug */,
+				93A2E69C1A5A753A00553F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A2E69D1A5A753A00553F17 /* Build configuration list for PBXNativeTarget "GameWorksPluginSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A2E69E1A5A753A00553F17 /* Debug */,
+				93A2E69F1A5A753A00553F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93A2E6A01A5A753A00553F17 /* Build configuration list for PBXNativeTarget "GameWorksPluginSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93A2E6A11A5A753A00553F17 /* Debug */,
+				93A2E6A21A5A753A00553F17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93A2E67E1A5A753A00553F17 /* Project object */;
+}
