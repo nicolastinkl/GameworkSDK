@@ -1,0 +1,1 @@
+../../../GWGameKitLib/GWTouristUserInfo.h

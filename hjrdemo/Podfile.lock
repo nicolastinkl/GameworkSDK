@@ -1,0 +1,10 @@
+PODS:
+  - GWGameKitLib (HEAD based on 1.0.3)
+
+DEPENDENCIES:
+  - GWGameKitLib (HEAD)
+
+SPEC CHECKSUMS:
+  GWGameKitLib: 0ea065ea7901e13b1cb6c0f91c91675849552d9c
+
+COCOAPODS: 0.35.0

@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F28EF1D13F9552F45C9C22B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8736F71D1DA9E4D03A6C2C02 /* libPods.a */; };
+		93FE10541A7A2E310010A284 /* hjrdemo.h in Headers */ = {isa = PBXBuildFile; fileRef = 93FE10531A7A2E310010A284 /* hjrdemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93FE105A1A7A2E310010A284 /* hjrdemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FE104E1A7A2E310010A284 /* hjrdemo.framework */; };
+		93FE10611A7A2E310010A284 /* hjrdemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FE10601A7A2E310010A284 /* hjrdemoTests.m */; };
+		93FE106C1A7A2ED10010A284 /* GameKitSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 93FE106A1A7A2ED10010A284 /* GameKitSDK.h */; };
+		93FE106D1A7A2ED10010A284 /* GameKitSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 93FE106B1A7A2ED10010A284 /* GameKitSDK.m */; };
+		93FE106F1A7A2F3D0010A284 /* GameWorksPluginSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FE106E1A7A2F3D0010A284 /* GameWorksPluginSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93FE105B1A7A2E310010A284 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93FE10451A7A2E310010A284 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93FE104D1A7A2E310010A284;
+			remoteInfo = hjrdemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26BE3ECDA8EB6DDD8833CF58 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		8736F71D1DA9E4D03A6C2C02 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FE104E1A7A2E310010A284 /* hjrdemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = hjrdemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FE10521A7A2E310010A284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93FE10531A7A2E310010A284 /* hjrdemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hjrdemo.h; sourceTree = "<group>"; };
+		93FE10591A7A2E310010A284 /* hjrdemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hjrdemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93FE105F1A7A2E310010A284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93FE10601A7A2E310010A284 /* hjrdemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hjrdemoTests.m; sourceTree = "<group>"; };
+		93FE106A1A7A2ED10010A284 /* GameKitSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameKitSDK.h; sourceTree = "<group>"; };
+		93FE106B1A7A2ED10010A284 /* GameKitSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameKitSDK.m; sourceTree = "<group>"; };
+		93FE106E1A7A2F3D0010A284 /* GameWorksPluginSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameWorksPluginSDK.framework; path = ../../TKGameworkSDK/Products/GameWorksPluginSDK.framework; sourceTree = "<group>"; };
+		FC692F5E8A447C362D38B5D3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93FE104A1A7A2E310010A284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F28EF1D13F9552F45C9C22B /* libPods.a in Frameworks */,
+				93FE106F1A7A2F3D0010A284 /* GameWorksPluginSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93FE10561A7A2E310010A284 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FE105A1A7A2E310010A284 /* hjrdemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BA297F9A2EC21A40F40DC32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8736F71D1DA9E4D03A6C2C02 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78DD6AC7014072F7E72BAD57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC692F5E8A447C362D38B5D3 /* Pods.debug.xcconfig */,
+				26BE3ECDA8EB6DDD8833CF58 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		93FE10441A7A2E310010A284 = {
+			isa = PBXGroup;
+			children = (
+				93FE10501A7A2E310010A284 /* hjrdemo */,
+				93FE105D1A7A2E310010A284 /* hjrdemoTests */,
+				93FE104F1A7A2E310010A284 /* Products */,
+				78DD6AC7014072F7E72BAD57 /* Pods */,
+				6BA297F9A2EC21A40F40DC32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		93FE104F1A7A2E310010A284 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93FE104E1A7A2E310010A284 /* hjrdemo.framework */,
+				93FE10591A7A2E310010A284 /* hjrdemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93FE10501A7A2E310010A284 /* hjrdemo */ = {
+			isa = PBXGroup;
+			children = (
+				93FE106E1A7A2F3D0010A284 /* GameWorksPluginSDK.framework */,
+				93FE10531A7A2E310010A284 /* hjrdemo.h */,
+				93FE106A1A7A2ED10010A284 /* GameKitSDK.h */,
+				93FE106B1A7A2ED10010A284 /* GameKitSDK.m */,
+				93FE10511A7A2E310010A284 /* Supporting Files */,
+			);
+			path = hjrdemo;
+			sourceTree = "<group>";
+		};
+		93FE10511A7A2E310010A284 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93FE10521A7A2E310010A284 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93FE105D1A7A2E310010A284 /* hjrdemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				93FE10601A7A2E310010A284 /* hjrdemoTests.m */,
+				93FE105E1A7A2E310010A284 /* Supporting Files */,
+			);
+			path = hjrdemoTests;
+			sourceTree = "<group>";
+		};
+		93FE105E1A7A2E310010A284 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93FE105F1A7A2E310010A284 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		93FE104B1A7A2E310010A284 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FE106C1A7A2ED10010A284 /* GameKitSDK.h in Headers */,
+				93FE10541A7A2E310010A284 /* hjrdemo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		93FE104D1A7A2E310010A284 /* hjrdemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93FE10641A7A2E310010A284 /* Build configuration list for PBXNativeTarget "hjrdemo" */;
+			buildPhases = (
+				974876D927FDB3E555C0A236 /* Check Pods Manifest.lock */,
+				93FE10491A7A2E310010A284 /* Sources */,
+				93FE104A1A7A2E310010A284 /* Frameworks */,
+				93FE104B1A7A2E310010A284 /* Headers */,
+				93FE104C1A7A2E310010A284 /* Resources */,
+				10AFBDCF4FE87674958ADF63 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hjrdemo;
+			productName = hjrdemo;
+			productReference = 93FE104E1A7A2E310010A284 /* hjrdemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		93FE10581A7A2E310010A284 /* hjrdemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93FE10671A7A2E310010A284 /* Build configuration list for PBXNativeTarget "hjrdemoTests" */;
+			buildPhases = (
+				93FE10551A7A2E310010A284 /* Sources */,
+				93FE10561A7A2E310010A284 /* Frameworks */,
+				93FE10571A7A2E310010A284 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93FE105C1A7A2E310010A284 /* PBXTargetDependency */,
+			);
+			name = hjrdemoTests;
+			productName = hjrdemoTests;
+			productReference = 93FE10591A7A2E310010A284 /* hjrdemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93FE10451A7A2E310010A284 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "___HJR___";
+				TargetAttributes = {
+					93FE104D1A7A2E310010A284 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					93FE10581A7A2E310010A284 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 93FE10481A7A2E310010A284 /* Build configuration list for PBXProject "hjrdemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93FE10441A7A2E310010A284;
+			productRefGroup = 93FE104F1A7A2E310010A284 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93FE104D1A7A2E310010A284 /* hjrdemo */,
+				93FE10581A7A2E310010A284 /* hjrdemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93FE104C1A7A2E310010A284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93FE10571A7A2E310010A284 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10AFBDCF4FE87674958ADF63 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		974876D927FDB3E555C0A236 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93FE10491A7A2E310010A284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FE106D1A7A2ED10010A284 /* GameKitSDK.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93FE10551A7A2E310010A284 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FE10611A7A2E310010A284 /* hjrdemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93FE105C1A7A2E310010A284 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93FE104D1A7A2E310010A284 /* hjrdemo */;
+			targetProxy = 93FE105B1A7A2E310010A284 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93FE10621A7A2E310010A284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93FE10631A7A2E310010A284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93FE10651A7A2E310010A284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC692F5E8A447C362D38B5D3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tinkl/Documents/project-xcode/Gameworks/TKGameworkSDK/Products",
+				);
+				INFOPLIST_FILE = hjrdemo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		93FE10661A7A2E310010A284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26BE3ECDA8EB6DDD8833CF58 /* Pods.release.xcconfig */;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/tinkl/Documents/project-xcode/Gameworks/TKGameworkSDK/Products",
+				);
+				INFOPLIST_FILE = hjrdemo/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		93FE10681A7A2E310010A284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hjrdemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		93FE10691A7A2E310010A284 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hjrdemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93FE10481A7A2E310010A284 /* Build configuration list for PBXProject "hjrdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93FE10621A7A2E310010A284 /* Debug */,
+				93FE10631A7A2E310010A284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93FE10641A7A2E310010A284 /* Build configuration list for PBXNativeTarget "hjrdemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93FE10651A7A2E310010A284 /* Debug */,
+				93FE10661A7A2E310010A284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93FE10671A7A2E310010A284 /* Build configuration list for PBXNativeTarget "hjrdemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93FE10681A7A2E310010A284 /* Debug */,
+				93FE10691A7A2E310010A284 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93FE10451A7A2E310010A284 /* Project object */;
+}

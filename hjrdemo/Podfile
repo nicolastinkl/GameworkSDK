@@ -1,0 +1,4 @@
+platform :ios, "6.0"
+
+# 私有库
+pod "GWGameKitLib",:head                #image基本工具类和部分全局函数
